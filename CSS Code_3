@@ -1,0 +1,22 @@
+.centre{
+    
+    display: block;
+    width: 38%;
+    margin: 30px auto;
+   
+}
+.navbar li{
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+}
+.navbar li a:hover{
+    color: blue;
+    text-decoration: underline;
+}

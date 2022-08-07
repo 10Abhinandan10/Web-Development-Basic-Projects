@@ -1,0 +1,22 @@
+.right{
+    
+    display: inline-block;
+    position: absolute;
+    top: 26px;
+    right: 25px;
+
+}
+.btm{
+    margin: 0px 8px;
+    padding: 12px 28px;
+    background-color: rgb(44, 44, 56);
+    color: white;
+    font-size: 19px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    border-radius: 37%;
+    cursor: pointer;
+}
+.btm:hover{
+    background-color: blue;
+}

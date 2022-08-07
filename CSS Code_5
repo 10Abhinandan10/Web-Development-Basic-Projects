@@ -1,0 +1,33 @@
+.container{
+    border: 3px solid white;
+    color: white;
+    margin: 178px 185px;
+    display: block;
+    width: 35%;
+    padding: 23px 5px;
+    border-radius: 46px;
+
+}
+.formgp{
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+.formgp:hover{
+    background-color: blue;
+}
+.formgp input{
+    text-align: center;
+    width: 263px;
+    display: block;
+    margin: 3px auto;
+    font-size: 20px;
+}
+.formgender{
+    display: block;
+    margin: auto 245px;
+}
+.heading{
+    font-family: 'Cormorant SC', serif;
+    margin: 10px 86px;
+    font-size: 45px;
+}

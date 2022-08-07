@@ -1,0 +1,23 @@
+.left{
+    
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+    left: 12px;
+    border-radius: 4%;
+}
+.left img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+.left div{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+}

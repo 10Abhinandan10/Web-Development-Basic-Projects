@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Guru</title>
+    <link rel="stylesheet" href="stylepage1.css">
+    <link rel="stylesheet" href="left.css">
+    <link rel="stylesheet" href="right.css">
+    <link rel="stylesheet" href="middle.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Fitness Guru</div>
+        </div>
+        <div class="centre">
+            <ul class="navbar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Fitness</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btm">Call us Now</button>
+            <button class="btm">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+            <h3 class="heading">Join the Best Gym Now !!!</h3>
+            <form action="abhi.php">
+                <div class="formgp">
+                    <input type="text" name="myName" placeholder="Type your name">
+                </div>
+                <div class="formgp">
+                    <input type="text" name="myRole" placeholder="Beginner/Advance">
+                </div>
+                <div class="formgp">
+                    <input type="text" name="myName" placeholder="Type your Age">
+                </div>
+                <div class="formgp">
+                    <input type="email" name="myEmail" placeholder="Type your email">
+                </div>
+                <div class="formgp">
+                    <input type="number" name="myAge" placeholder="Type your Age">
+                </div>
+                <div class="formgp">
+                    <input type="number" name="myAge" placeholder="Type your PH: Number">
+                </div>
+                <div class="formgp">
+                    <input type="date" name="myDate" placeholder="Type your name">
+                </div>
+                <div class="formgender">
+                    Male:<input type="radio" name="myGender">
+                    Female:<input type="radio" name="myGender">
+                    Other:<input type="radio" name="myGender">
+                </div>
+                <div class="formgp">
+                    <input type="submit" value="Submit Now">
+                    <input type="reset" value="Reset Now">
+                </div>
+                
+            </form>
+    </div>
+    
+</body>
+</html>
